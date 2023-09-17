@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMHANNAAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    min-width: 700px
+}
+
+.headline{
+    display: flex;
+    border-bottom: 2px solid ;
+    
+}
+
+.bodyline{
+    font-family: 'BMHANNAAir';
+    font-size: 23px;
+}
+.underline{
+    text-decoration-line: none;
+    color: #000000;
+}
+.underline:hover{
+    
+    color: #b4b4b4;
+}
+
+.name{
+    margin: 15px;
+    font-size: 40px;
+    font-family: 'BMDOHYEON';
+    white-space: nowrap;
+}
+.fifahome{
+    text-decoration: none;
+    font-family: 'BMHANNAAir';
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+
